@@ -16,6 +16,11 @@ namespace GenericsDemo
             double maxDouble = NonGenericClass.MaxDoubleNumber(23.4, 24.7, 22.1);
             Console.WriteLine("max integer value is\t" + maxDouble);
 
+            Console.WriteLine("find max problem");
+
+            string maxString = NonGenericClass.MaxString("Apple", "Peach", "Banana");
+            Console.WriteLine("max integer value is\t" + maxString);
+
 
         }
     }
